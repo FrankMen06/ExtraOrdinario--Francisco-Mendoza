@@ -1,9 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: lightblue;
 }
 
 .container{
-    display: flexbox;
-    flex-direction: row;
+    align-items: flex-end;
 }
-
