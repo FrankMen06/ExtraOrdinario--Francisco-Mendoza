@@ -5,8 +5,7 @@ function elevar(){
     
 
     for(i=0; i<=potencia; i++){
-        result = (numero * numero)* i;
-      
+        result = numero * numero ;
     }
 
     resultado = document.getElementById("resultado");
