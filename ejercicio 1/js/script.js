@@ -2,9 +2,9 @@ function elevar(){
     numero = document.getElementById("numero").value;
     potencia =  document.getElementById("potencia").value;
 
-    
+    i=0;
 
-    for(i=0; i<=potencia; i++){
+    for(i; i<=potencia; i++){
         result = numero * numero ;
     }
 
